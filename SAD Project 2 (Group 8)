@@ -4,7 +4,7 @@
 # Date: 01/06/2024
 
 #        STUDENTS NAME             |     STUDENTS ID
-# ARIA FARDHIN NIDHI               |      A23MJ3004
+#      ARIA FARDHIN NIDHI          |      A23MJ3004
 # AMIR HAMZAH BIN ABDUL HALIM      |      A23MJ8042
 #      MALIKA KASMALIEVA           |      A23MJ3016
 
@@ -17,10 +17,10 @@
 # 1.0 Overview of the Project
 Previously we discussed the Online Restaurant Reservation System which seeks to develop an innovative web-based program
 that enriches the dining experience for both customers and restaurant staff.
-We talked about how customers can make smooth online reservations,check table availability and receive speedy confirmation emails.
-Moreover the proposal also focused on the background, methodology, resources, budget, reporting and risks.
+We talked about how customers can make smooth online reservations, check table availability, and receive speedy confirmation emails.
+Moreover, the proposal also focused on the background, methodology, resources, budget, reporting, and risks.
 There were a few objectives, for example automating the sending of confirmation emails using the user’s information from the website,
-creating a standardized display of available tables in the restaurant for the specified time slots,etc.
+creating a standardized display of available tables in the restaurant for the specified time slots, etc.
 After analyzing and calculating the budget we got a total of $101,600.
 
 # 2.0 Problem Statement
@@ -32,7 +32,7 @@ When users do not receive immediate confirmation notification it leads to unreli
 Customers struggle with canceling since they have to contact the restaurant directly.
 It often leads to mismanagement and missed rebooking opportunities as restaurants cannot immediately update availability after cancellation.
 Furthermore, restaurants fail to manage their resources constructively resulting in deteriorating revenue.
-The online reservation system will enable users to view available tables, make reservations with ease with an interactive interface.
+The online reservation system will enable users to view available tables and make reservations with ease with an interactive interface.
 Most importantly, they can cancel and modify their booking through the online portal.
 This system will widely benefit the restaurant too. They can remind and confirm customers automatically to maintain effective communication.
 In addition to that, it's possible to acquire data and insights to enhance efficiency and raise customer satisfaction.
@@ -42,7 +42,7 @@ We aim to maximize table management while improving the dining experience for cl
 To achieve that, the system will have a well-designed user interface.
 It will have a list of restaurants, a reservation form, and user account management.
 The list of restaurants will contain location, contact information, running hours, etc.
-Booking form will mainly focus on date and time along with other reservation details.
+The booking form will mainly focus on the date and time along with other reservation details.
 Customers can create their own accounts and use them to modify anything related to the reservation.
 A cancellation link or button will be available beside the reservations.
 A database will be used to store information and reservations for flexibility.
@@ -81,7 +81,7 @@ Reservation management tools are needed for checking upcoming reservations and g
             -	Cancellation request details.
         •	Process:
             -	Store customer reservation details (online).
-            -	Manage and update table availability in real time.
+            -	Manage and update table availability in real-time.
             -	Generate and maintain a waiting list for online customers.
             -	Allocate tables based on reservation and customer details.
             -	Send reservation confirmation emails to customers.
