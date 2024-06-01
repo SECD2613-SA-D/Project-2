@@ -29,69 +29,68 @@
 
 # 1.0 Overview of the Project
 
-Previously we discussed the Online Restaurant Reservation System which seeks to develop an innovative web-based program
-that enriches the dining experience for both customers and restaurant staff.
-We talked about how customers can make smooth online reservations, check table availability, and receive speedy confirmation emails.
-Moreover, the proposal also focused on the background, methodology, resources, budget, reporting, and risks.
-There were a few objectives, for example automating the sending of confirmation emails using the user’s information from the website,
-creating a standardized display of available tables in the restaurant for the specified time slots, etc.
-After analyzing and calculating the budget we got a total of $101,600.
+     Previously we discussed the Online Restaurant Reservation System which seeks to develop an innovative web-based program
+     that enriches the dining experience for both customers and restaurant staff.
+     We talked about how customers can make smooth online reservations, check table availability, and receive speedy confirmation emails.
+     Moreover, the proposal also focused on the background, methodology, resources, budget, reporting, and risks.
+     There were a few objectives, for example automating the sending of confirmation emails using the user’s information from the website,
+     creating a standardized display of available tables in the restaurant for the specified time slots, etc.
+     After analyzing and calculating the budget we got a total of $101,600.
 
 # 2.0 Problem Statement
 
-There are restaurants that still utilize the old reservation methods such as phone calls or walk-ins.
-This often results in miscommunication, double bookings, or prolonged waiting for confirmations.
-While managing reservations manually, sometimes restaurants overbook too.
-As customers cannot view the available time slots, they have to contact the restaurant multiple times which can cause exasperation.
-When users do not receive immediate confirmation notification it leads to unreliability.
-Customers struggle with canceling since they have to contact the restaurant directly.
-It often leads to mismanagement and missed rebooking opportunities as restaurants cannot immediately update availability after cancellation.
-Furthermore, restaurants fail to manage their resources constructively resulting in deteriorating revenue.
-The online reservation system will enable users to view available tables and make reservations with ease with an interactive interface.
-Most importantly, they can cancel and modify their booking through the online portal.
-This system will widely benefit the restaurant too. They can remind and confirm customers automatically to maintain effective communication.
-In addition to that, it's possible to acquire data and insights to enhance efficiency and raise customer satisfaction.
+     There are restaurants that still utilize the old reservation methods such as phone calls or walk-ins.
+     This often results in miscommunication, double bookings, or prolonged waiting for confirmations.
+     While managing reservations manually, sometimes restaurants overbook too.
+     As customers cannot view the available time slots, they have to contact the restaurant multiple times which can cause exasperation.
+     When users do not receive immediate confirmation notification it leads to unreliability.
+     Customers struggle with canceling since they have to contact the restaurant directly.
+     It often leads to mismanagement and missed rebooking opportunities as restaurants cannot immediately update availability after cancellation.
+     Furthermore, restaurants fail to manage their resources constructively resulting in deteriorating revenue.
+     The online reservation system will enable users to view available tables and make reservations with ease with an interactive interface.
+     Most importantly, they can cancel and modify their booking through the online portal.
+     This system will widely benefit the restaurant too. They can remind and confirm customers automatically to maintain effective communication.
+     In addition to that, it's possible to acquire data and insights to enhance efficiency and raise customer satisfaction.
 
 # 3.0 Proposed solution
 
-We aim to maximize table management while improving the dining experience for clients and restaurant employees.
-To achieve that, the system will have a well-designed user interface.
-It will have a list of restaurants, a reservation form, and user account management.
-The list of restaurants will contain location, contact information, running hours, etc.
-The booking form will mainly focus on the date and time along with other reservation details.
-Customers can create their own accounts and use them to modify anything related to the reservation.
-A cancellation link or button will be available beside the reservations.
-A database will be used to store information and reservations for flexibility.
-Upon cancellation, the reservation status will be updated to “Canceled” in the database and free up that time slot.
-It is essential to place a safe authentication, guaranteeing data security via encryption, and adhering to privacy laws.
-SMS service will be used to send reminders whereas emails will be used for automatic confirmation right after booking.
-Both SMS and emails can also be used to send notification of successful cancellation of booking.
-Reservation management tools are needed for checking upcoming reservations and getting in touch with customers if needed.
+     We aim to maximize table management while improving the dining experience for clients and restaurant employees.
+     To achieve that, the system will have a well-designed user interface.
+     It will have a list of restaurants, a reservation form, and user account management.
+     The list of restaurants will contain location, contact information, running hours, etc.
+     The booking form will mainly focus on the date and time along with other reservation details.
+     Customers can create their own accounts and use them to modify anything related to the reservation.
+     A cancellation link or button will be available beside the reservations.
+     A database will be used to store information and reservations for flexibility.
+     Upon cancellation, the reservation status will be updated to “Canceled” in the database and free up that time slot.
+     It is essential to place a safe authentication, guaranteeing data security via encryption, and adhering to privacy laws.
+     SMS service will be used to send reminders whereas emails will be used for automatic confirmation right after booking.
+     Both SMS and emails can also be used to send notification of successful cancellation of booking.
+     Reservation management tools are needed for checking upcoming reservations and getting in touch with customers if needed.
 
 # 4.0 Information Gathering Process
 
-     The information gathering process involves collecting necessary and relavant data for creating a feasible system, identify
-     its flaws and challenges and to determine the requirements for the system to be successful. This section will outline the
-     methods used which are Questionnaire and Interview in the process of gathering information.
+     The information-gathering process involves collecting necessary and relevant data for creating a feasible system, identify
+     its flaws and challenges, and to determine the requirements for the system to be successful. This section will outline the
+     methods used which are Questionnaires and Interview in the process of gathering information.
 
      4.1 Methods used
           a. Questionnaire
-               -Alllows large sample of stakeholders to be involved in the Questionnaire effeciently
-               -Allows anonymous data to be collected which encourages more honest feedback
-               -Flexible in a sense that respondents can complete the questionnaire at their own leisure
+               - Allows a large sample of stakeholders to be involved in the Questionnaire efficiently
+               - Allows anonymous data to be collected which encourages more honest feedback
+               - Flexible in the sense that respondents can complete the questionnaire at their own leisure
          
           b. Interview
-               -Allows respondents to give in-depth responses that can help micro-adjust our system to perfection
-               -Builds personal connections with interviewees which may lead to a more successful launch
-               -Allows tailored approaches, different sets of interviews can be used depending on the interviewee's 
-                background.
+               - Allows respondents to give in-depth responses that can help micro-adjust our system to perfection
+               - Builds personal connections with interviewees which may lead to a more successful launch
+               - Allows tailored approaches, different sets of interviews can be used depending on the interviewee's background.
 
-     4.2 Summary from Methods used
+     4.2 Summary of Methods Used
 
                These methods are used to gather the necessary information by allowing direct interaction with stakeholders and
-               potential users to record their preferences, feedback and requirements for online restaurant reservations systems.
+               potential users to record their preferences, feedback, and requirements for online restaurant reservation systems.
                We also research existing popular online reservation systems to take note on what makes the system attractive and 
-               succesful.
+               successful.
 
                1.Sameple Questionnaire
 
@@ -101,13 +100,13 @@ Reservation management tools are needed for checking upcoming reservations and g
                          • Age:
                   
                     2. Existing online reservation systems
-                         • How do you normally make reservations at your favourite restaurants?
+                         • How do you normally make reservations at your favorite restaurants?
                          • What issues do you face with those reservation systems?
-                         • What is the process of cancelling or changing your reservations?
+                         • What is the process of canceling or changing your reservations?
 
                     3. Customer Experience
-                         •What feedback can you give on the reservation process of your favourite restaurants?
-                         •What feature do you hope to see in these reservation systems that could improve your overall experience?
+                         • What feedback can you give on the reservation process of your favorite restaurants?
+                         • What feature do you hope to see in these reservation systems that could improve your overall experience?
 
                     4. Accessibility
                          • What method of technology do you use to make reservations?
@@ -115,7 +114,7 @@ Reservation management tools are needed for checking upcoming reservations and g
 
                     5. Privacy and Security
                          • How secure do you feel when giving personal information to these reservation systems?
-                         • What measures are made that you're aware of to ensure that information you and other clients provide 
+                         • What measures are made that you're aware of to ensure that the information you and other clients provide 
                            are secure?
 
                     6. Future improvements
@@ -232,37 +231,37 @@ Reservation management tools are needed for checking upcoming reservations and g
 # 6.0 Summary of Requirement Analysis Process
 
      The requirement analysis process for our Online Restaurant Reservation System is done by detailed examinations of the 
-     current reservation systems by other succesful businesses. We also analysed the functional and non-functional requirements
-     as well as preparing logical data flow diagrams (DFD)s that represent the AS-IS system.
+     current reservation systems by other successful businesses. We also analyzed the functional and non-functional requirements
+     as well as prepared logical data flow diagrams (DFD) that represent the AS-IS system.
 
-          Here are each segments summarised:
+          Here is each segment summarised:
 
                5.1 Current Business Process: 
                     Two primary scenarios were outlined, online reservations and reservation cancellations.
-                    Detailed workflows are provided for each instance obervations betweened the customers and restaurant staff
+                    Detailed workflows are provided for each instance observations between the customers and restaurant staff
                     were recorded.
 
                5.2 Functional Requirements: 
-                    We indentified input, process and output requirements. Furthermore we include 
-                    customer details, managing table availability, generating confirmation emails and handling cancellation
+                    We identified input, process, and output requirements. Furthermore, we include 
+                    customer details, managing table availability, generating confirmation emails, and handling cancellation
                     requests.
 
                5.3 Non-functional Requirments:
-                    We specify the control requirements and constructed a system that effeiciently handles simultaneous user
+                    We specify the control requirements and constructed a system that efficiently handles simultaneous user
                     inputs, provide real-time updates, ensure customer data is secure and private, maintain the uptime of 
                     the system and implement regulations for access control.
 
                5.4 Logical DFD AS-IS System:
-                    We construct logical DFD diagrams to potray the context, processes and data flow within the system.
+                    We construct logical DFD diagrams to portray the context, processes, and data flow within the system.
                     The diagrams extend to a context diagram, a Child Diagram that shows the reservation cancellation process
                     as well as a Diagram 0 that highlights the main processes and data stores.
 
           Overall summary:
 
-               During this study, we aimed to understand existing system's features and functionalities, it's limitations and 
-               possible improvements. By construction informative DFD diagrams, we highlight the worflows, functional and
-               non-functional requirements and use this data as a foundation to the next steps of the project which are
-               design and implementation phases. The study also provides a scope for the project that will guide the team
-               to develop an effecient and successful Online Reservation System that overcomes the identified challenges
-               and satisfies it's requirements.
+               During this study, we aimed to understand the existing system's features and functionalities, its limitations, and 
+               possible improvements. By constructing informative DFD diagrams, we highlight the workflows, and functional and
+               non-functional requirements and use this data as a foundation for the next steps of the project which are
+               the design and implementation phases. The study also provides a scope for the project that will guide the team
+               to develop an efficient and successful Online Reservation System that overcomes the identified challenges
+               and satisfies its requirements.
 
