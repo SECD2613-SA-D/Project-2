@@ -10,3 +10,136 @@
 
 
 # Table Of Contents
+
+
+# Topic: Online Restaurant Reservation System
+
+# 1.0 Overview of the Project
+Previously we discussed the Online Restaurant Reservation System which seeks to develop an innovative web-based program
+that enriches the dining experience for both customers and restaurant staff.
+We talked about how customers can make smooth online reservations,check table availability and receive speedy confirmation emails.
+Moreover the proposal also focused on the background, methodology, resources, budget, reporting and risks.
+There were a few objectives, for example automating the sending of confirmation emails using the user’s information from the website,
+creating a standardized display of available tables in the restaurant for the specified time slots,etc.
+After analyzing and calculating the budget we got a total of $101,600.
+
+# 2.0 Problem Statement
+There are restaurants that still utilize the old reservation methods such as phone calls or walk-ins.
+This often results in miscommunication, double bookings, or prolonged waiting for confirmations.
+While managing reservations manually, sometimes restaurants overbook too.
+As customers cannot view the available time slots, they have to contact the restaurant multiple times which can cause exasperation.
+When users do not receive immediate confirmation notification it leads to unreliability.
+Customers struggle with canceling since they have to contact the restaurant directly.
+It often leads to mismanagement and missed rebooking opportunities as restaurants cannot immediately update availability after cancellation.
+Furthermore, restaurants fail to manage their resources constructively resulting in deteriorating revenue.
+The online reservation system will enable users to view available tables, make reservations with ease with an interactive interface.
+Most importantly, they can cancel and modify their booking through the online portal.
+This system will widely benefit the restaurant too. They can remind and confirm customers automatically to maintain effective communication.
+In addition to that, it's possible to acquire data and insights to enhance efficiency and raise customer satisfaction.
+
+# 3.0 Proposed solution
+We aim to maximize table management while improving the dining experience for clients and restaurant employees.
+To achieve that, the system will have a well-designed user interface.
+It will have a list of restaurants, a reservation form, and user account management.
+The list of restaurants will contain location, contact information, running hours, etc.
+Booking form will mainly focus on date and time along with other reservation details.
+Customers can create their own accounts and use them to modify anything related to the reservation.
+A cancellation link or button will be available beside the reservations.
+A database will be used to store information and reservations for flexibility.
+Upon cancellation, the reservation status will be updated to “Canceled” in the database and free up that time slot.
+It is essential to place a safe authentication, guaranteeing data security via encryption, and adhering to privacy laws.
+SMS service will be used to send reminders whereas emails will be used for automatic confirmation right after booking.
+Both SMS and emails can also be used to send notification of successful cancellation of booking.
+Reservation management tools are needed for checking upcoming reservations and getting in touch with customers if needed.
+
+# 4.0
+
+
+# 5.0 Requirement Analysis
+
+     5.1 Current Business Process
+        •	Scenario 1: Online Reservations
+            a.	Workflow:
+                  1.	Customers visit the restaurant's website.
+                  2.	Customers navigate to the reservation system page.
+                  3.	Customers enter reservation details (name, contact information, number of guests, date, and time).
+                  4.	The system checks real-time table availability.
+                  5.	If a table is available, the system confirms the reservation and sends a confirmation email to the customer.
+                  6.	If no table is available, the system offers alternative time slots or adds the customer to a waiting list.
+                  7.	On the day of the reservation, the host/hostess uses the system to check reservations and seat customers.
+        •	Scenario 2: Cancellation of Reservations
+            b. Workflow:
+                  1.	Customers who wish to cancel their reservation notify the restaurant.
+                  2.	The host/hostess accesses the reservation system.
+                  3.	The host/hostess locates the reservation and marks it as canceled.
+                  4.	The system updates table availability and sends a cancellation confirmation to the customer.
+
+     5.2 Functional Requirements
+        •	Input:
+            -	Customer details (name, contact information, number of guests, reservation date and time).
+            -	Table availability status.
+            -	Cancellation request details.
+        •	Process:
+            -	Store customer reservation details (online).
+            -	Manage and update table availability in real time.
+            -	Generate and maintain a waiting list for online customers.
+            -	Allocate tables based on reservation and customer details.
+            -	Send reservation confirmation emails to customers.
+            -	Process cancellation requests and update table availability accordingly.
+        •	Output:
+            -	Confirmation email sent to the customer.
+            -	Online reservation details (entered through the website)
+            -	Updated table availability status.
+            -	Real-time waiting list display for staff.
+            -	Reservation and customer lists for staff reference.
+            -	Real-time table availability display on the website.
+            -	Cancellation confirmation email sent to the customer.
+
+     5.3 Non-functional Requirements
+        •	Performance:
+            -	The system must handle a large number of simultaneous user requests efficiently.
+            -	Real-time updates of table availability and reservation status.
+            -	Quick response time for reservation confirmation emails.
+            -	High availability and reliability to handle peak times, especially during weekends and holidays.
+        •	Control:
+            -	Secure storage of customer data to ensure privacy and data protection.
+            -	Reliable system uptime to avoid disruptions in the reservation process.
+            -	Regular system backups to prevent data loss.
+            -	Access control to ensure only authorized staff can manage reservations and table allocations.
+            -	Robust cybersecurity measures to protect against online threats and data breaches.
+
+     5.4 Logical DFD AS-IS System
+        • Context Diagram:
+            a. Entities:
+                  1.  Customers (Online Reservation, Cancellation)
+                  2.  Restaurant Staff
+            b. Interactions:
+                  Customers provide reservation details to restaurant staff or cancel reservations online.
+                  Restaurant staff manage the waiting list, table allocations, and cancellations.
+
+        • Diagram 0:
+            a. Processes:
+                  1.  Online Reservation Management
+                  2.  Cancellation Management
+                  3.  Table Allocation
+            b. Data Stores:
+                  1.  Online Reservation Database
+            c. Data Flows:
+                  1.  Online customer details flow into Online Reservation Management.
+                  2.  Cancellation requests flow into Cancellation Management.
+
+        • Child Diagram (Cancellation Management):
+            a. Processes:
+                  1.  Receive Cancellation Request
+                  2.  Process Cancellation
+                  3.  Update Table Availability
+            b. Data Stores:
+                  1.  Customer Reservations
+                  2.  Table Status
+            c. Data Flows:
+                  1.  Cancellation requests flow into Receive Cancellation Request.
+                  2.  Cancellation processing details flow into Process Cancellation.
+                  3.  Table status updates flow into Update Table Availability.
+
+        • *CONSTRUCTED DIAGRAMS IN ANOTHER FILE*
+          
