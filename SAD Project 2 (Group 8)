@@ -220,24 +220,23 @@
           Here is each segment summarised:
 
                5.1 Current Business Process: 
-                    Two primary scenarios were outlined, online reservations and reservation cancellations.
+                    Two primary scenarios were outlined, walk-in customers and manual reservations.
                     Detailed workflows are provided for each instance observations between the customers and restaurant staff
                     were recorded.
 
                5.2 Functional Requirements: 
                     We identified input, process, and output requirements. Furthermore, we include 
-                    customer details, managing table availability, generating confirmation emails, and handling cancellation
-                    requests.
+                    customer details, managing table availability, and generating confirmation emails.
 
                5.3 Non-functional Requirments:
                     We specify the control requirements and constructed a system that efficiently handles simultaneous user
-                    inputs, provide real-time updates, ensure customer data is secure and private, maintain the uptime of 
-                    the system and implement regulations for access control.
+                    inputs, provide real-time updates, ensure customers with quick responses, maintain the uptime of 
+                    the system and implement regulations for control.
 
                5.4 Logical DFD AS-IS System:
                     We construct logical DFD diagrams to portray the context, processes, and data flow within the system.
-                    The diagrams extend to a context diagram, a Child Diagram that shows the reservation cancellation process
-                    as well as a Diagram 0 that highlights the main processes and data stores.
+                    The diagrams extend to a Context diagram, Diagram 0 that highlights the main processes and data stores.
+                    Currently, the workflow of our system does not require a Child Diagram, since the process is quite simple.
 
           Overall summary:
 
