@@ -115,20 +115,20 @@
                     5. Privacy and Security
                          • How secure do you feel when giving personal information to these reservation systems?
                          • What measures are made that you're aware of to ensure that the information you and other clients provide 
-                           are secure?
+                           is secure?
 
                     6. Future improvements
-                         • What imrpovements do you hope to see in a new online reservation system?
-                         • What new features do you think would help elavate the customer experience in making an online reservation?
+                         • What improvements do you hope to see in a new online reservation system?
+                         • What new features do you think would help elevate the customer experience when making an online reservation?
 
                2. Sample Interview
 
-                    Interviwee:
+                    Interviewee:
                     Affiliated Restaurant:
                     Position:
                     Date of interview:
 
-                    The respondant is interviewed with the following questions:
+                    The respondent is interviewed with the following questions:
 
                          1. How do your customers make reservations at your restaurant?
                          2. How do you handle reservation changes and cancellations?
@@ -143,88 +143,71 @@
 # 5.0 Requirement Analysis
 
      5.1 Current Business Process
-        •	Scenario 1: Online Reservations
+        •	Scenario 1: Walk-in Customers
             a.	Workflow:
-                  1.	Customers visit the restaurant's website.
-                  2.	Customers navigate to the reservation system page.
-                  3.	Customers enter reservation details (name, contact information, number of guests, date, and time).
-                  4.	The system checks real-time table availability.
-                  5.	If a table is available, the system confirms the reservation and sends a confirmation email to the customer.
-                  6.	If no table is available, the system offers alternative time slots or adds the customer to a waiting list.
-                  7.	On the day of the reservation, the host/hostess uses the system to check reservations and seat customers.
-        •	Scenario 2: Cancellation of Reservations
+                  1.     Customers arrive at the restaurant.
+                  2.     Customers check in with the host/hostess.
+                  3.     The host/hostess adds the customer's name to a manual waiting list if no table is immediately available.
+                  4.     The host/hostess informs the customer of the estimated wait time.
+                  5.     Customers wait until a table becomes available.
+                  6.     The host/hostess seats the customers at an available table.
+        •	Scenario 2: Manual Reservations
             b. Workflow:
-                  1.	Customers who wish to cancel their reservation notify the restaurant.
-                  2.	The host/hostess accesses the reservation system.
-                  3.	The host/hostess locates the reservation and marks it as canceled.
-                  4.	The system updates table availability and sends a cancellation confirmation to the customer.
+                  1.	Customers call the restaurant to make a reservation.
+                  2.     The host/hostess records the reservation details (name, contact information, number of guests, date, and time) in a reservation book.
+                  3.     On the day of the reservation, the host/hostess reviews the reservation book to manage table allocations.
+                  4.     When the customer arrives, the host/hostess checks the reservation book and seats the customer.
 
      5.2 Functional Requirements
         •	Input:
             -	Customer details (name, contact information, number of guests, reservation date and time).
             -	Table availability status.
-            -	Cancellation request details.
+            -	Walk-in customer check-in details.
         •	Process:
-            -	Store customer reservation details (online).
-            -	Manage and update table availability in real-time.
-            -	Generate and maintain a waiting list for online customers.
-            -	Allocate tables based on reservation and customer details.
+            -	Store customer reservation details.
+            -	Manage and update table availability in real time.
+            -	Generate and maintain a waiting list for walk-in customers.
+            -	Allocate tables based on reservation and walk-in customer details.
             -	Send reservation confirmation emails to customers.
-            -	Process cancellation requests and update table availability accordingly.
         •	Output:
             -	Confirmation email sent to the customer.
-            -	Online reservation details (entered through the website)
             -	Updated table availability status.
-            -	Real-time waiting list display for staff.
-            -	Reservation and customer lists for staff reference.
-            -	Real-time table availability display on the website.
-            -	Cancellation confirmation email sent to the customer.
+            -  Real-time waiting list display for staff.
+            -  Reservation and walk-in customer lists for staff reference.
 
      5.3 Non-functional Requirements
         •	Performance:
             -	The system must handle a large number of simultaneous user requests efficiently.
             -	Real-time updates of table availability and reservation status.
             -	Quick response time for reservation confirmation emails.
-            -	High availability and reliability to handle peak times, especially during weekends and holidays.
         •	Control:
             -	Secure storage of customer data to ensure privacy and data protection.
             -	Reliable system uptime to avoid disruptions in the reservation process.
             -	Regular system backups to prevent data loss.
             -	Access control to ensure only authorized staff can manage reservations and table allocations.
-            -	Robust cybersecurity measures to protect against online threats and data breaches.
 
      5.4 Logical DFD AS-IS System
         • Context Diagram:
             a. Entities:
-                  1.  Customers (Online Reservation, Cancellation)
+                  1.  Customers
                   2.  Restaurant Staff
             b. Interactions:
-                  Customers provide reservation details to restaurant staff or cancel reservations online.
-                  Restaurant staff manage the waiting list, table allocations, and cancellations.
+                  Customers provide reservation or walk-in details to restaurant staff.
+                  Restaurant staff manage the waiting list and table allocations.
 
         • Diagram 0:
             a. Processes:
-                  1.  Online Reservation Management
-                  2.  Cancellation Management
-                  3.  Table Allocation
+                  1.  Customer Arrival and Check-in
+                  2.  Reservation Management
+                  3.  Waiting List Management
+                  4.  Table Allocation
             b. Data Stores:
-                  1.  Online Reservation Database
+                  1.  Reservation Book
+                  2.  Waiting List
             c. Data Flows:
-                  1.  Online customer details flow into Online Reservation Management.
-                  2.  Cancellation requests flow into Cancellation Management.
-
-        • Child Diagram (Cancellation Management):
-            a. Processes:
-                  1.  Receive Cancellation Request
-                  2.  Process Cancellation
-                  3.  Update Table Availability
-            b. Data Stores:
-                  1.  Customer Reservations
-                  2.  Table Status
-            c. Data Flows:
-                  1.  Cancellation requests flow into Receive Cancellation Request.
-                  2.  Cancellation processing details flow into Process Cancellation.
-                  3.  Table status updates flow into Update Table Availability.
+                  1.  Customer details flow into Reservation Management.
+                  2.  Reservation details flow into Table Allocation.
+                  3.  Walk-in details flow into Waiting List Management.
 
         • *CONSTRUCTED DIAGRAMS IN ANOTHER FILE*
 
