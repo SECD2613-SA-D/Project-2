@@ -55,8 +55,7 @@
 # 3.0 Proposed solution
 
      We aim to maximize table management while improving the dining experience for clients and restaurant employees.
-     To achieve that, the system will have a well-designed user interface.
-     It will have a list of restaurants, a reservation form, and user account management.
+     The user interface will have a list of restaurants, a reservation form, and user account management.
      The list of restaurants will contain location, contact information, running hours, etc.
      The booking form will mainly focus on the date and time along with other reservation details.
      Customers can create their own accounts and use them to modify anything related to the reservation.
