@@ -16,13 +16,13 @@
 3.0 Proposed Solution
 4.0 Information gathering process
      4.1 Method used
-     4.2 Summary from method used
+     4.2 Summary of method used
 5.0 Requirement Analysis 
      5.1 Current business process
      5.2 Functional Requirement
      5.3 Non-functional Requirement
      5.4 Logical DFD AS-IS system
-6.0 Summary of Requirement Analysis process
+6.0 Summary of Requirement Analysis Process
 
 
 # Topic: Online Restaurant Reservation System
@@ -60,25 +60,22 @@
      The list of restaurants will contain location, contact information, running hours, etc.
      The booking form will mainly focus on the date and time along with other reservation details.
      Customers can create their own accounts and use them to modify anything related to the reservation.
-     A cancellation link or button will be available beside the reservations.
      A database will be used to store information and reservations for flexibility.
      Upon cancellation, the reservation status will be updated to “Canceled” in the database and free up that time slot.
-     It is essential to place a safe authentication, guaranteeing data security via encryption, and adhering to privacy laws.
      SMS service will be used to send reminders whereas emails will be used for automatic confirmation right after booking.
-     Both SMS and emails can also be used to send notification of successful cancellation of booking.
-     Reservation management tools are needed for checking upcoming reservations and getting in touch with customers if needed.
+     Both SMS and emails can also be used to send notifications of successful cancellation of booking.
 
 # 4.0 Information Gathering Process
 
-     The information-gathering process involves collecting necessary and relevant data for creating a feasible system, identify
-     its flaws and challenges, and to determine the requirements for the system to be successful. This section will outline the
-     methods used which are Questionnaires and Interview in the process of gathering information.
+     The information-gathering process involves collecting necessary and relevant data for creating a feasible system, identifying
+     its flaws and challenges, and determining the requirements for the system to be successful. This section will outline the
+     methods used which are Questionnaires and Interviews in the process of gathering information.
 
      4.1 Methods used
           a. Questionnaire
                - Allows a large sample of stakeholders to be involved in the Questionnaire efficiently
                - Allows anonymous data to be collected which encourages more honest feedback
-               - Flexible in the sense that respondents can complete the questionnaire at their own leisure
+               - Flexible in the sense that respondents can complete the questionnaire at their leisure
          
           b. Interview
                - Allows respondents to give in-depth responses that can help micro-adjust our system to perfection
